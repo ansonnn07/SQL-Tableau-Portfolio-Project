@@ -1,11 +1,3 @@
-/*
-
-Queries used for Tableau Project
-
-*/
-
-
-
 -- 1. 
 
 SELECT 
@@ -120,7 +112,7 @@ FROM rolling_avg
 
 
 
--- Queries that originally wanted for visualizations, but excluded some because it's too long
+-- Queries that originally wanted for visualizations, but excluded because they are too long
 -- Left here in case needed
 
 -- 1.
@@ -162,7 +154,7 @@ ORDER BY 1,2
 
 -- 3.
 
--- We take these out AS they are not inluded in the above queries and want to stay consistent
+-- We take these out AS they are not included in the above queries and want to stay consistent
 -- European Union is part of Europe
 
 SELECT location, SUM(CAST(new_deaths AS INT)) AS TotalDeathCount
