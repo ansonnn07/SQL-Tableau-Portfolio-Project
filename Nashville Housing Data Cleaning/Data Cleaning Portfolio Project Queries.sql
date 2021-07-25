@@ -245,7 +245,7 @@ GROUP BY
 	LegalReference
 )
 SELECT *
-FROM NashvilleHousing
+FROM RowCounts
 WHERE ParcelID IN (
 	SELECT ParcelID
 	FROM RowCounts
